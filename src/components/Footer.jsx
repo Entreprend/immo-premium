@@ -7,8 +7,8 @@ export default function Footer() {
 
         <div className="footer-logo-wrap">
           <div className="logo-wrap">
-            <img src="/logo-footer.svg" alt="ImmoPremium" style={{ height: "44px" }} />
-          </div>
+<img src={`${import.meta.env.BASE_URL}logo-footer.svg`} alt="ImmoPremium" style={{ height: "44px" }} />
+        </div>
           <p>
             Votre partenaire de confiance pour trouver la propriété parfaite.
             Nous offrons des solutions intelligentes pour une expérience

@@ -41,9 +41,8 @@ export default function Navbar() {
 
         {/* Logo */}
         <div className="logo-wrap">
-          <img src="/logo.svg" alt="ImmoPremium" style={{ height: "44px" }} />
-        </div>
-
+<img src={`${import.meta.env.BASE_URL}logo.svg`} alt="ImmoPremium" style={{ height: "44px" }} />
+     </div>
         {/* Téléphone desktop */}
         <div className="nav-phone nav-phone-desktop">
           <Phone size={15} strokeWidth={2.5} />
